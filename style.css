@@ -7,19 +7,40 @@ body{
     color: black;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    padding-left: 100px ;
-    padding-right: 100px ;
+   
 p{
-    font-weight: 300;
+    font-weight: 50px;
     font-size: 20px;
     text-align: justify;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    margin-bottom: 30px;
+    
 }
+header {
+    display: flex;
+   background-color: rgb(73, 64, 18);
+   color:rgb(206, 192, 45);
+   justify-content: space-between; 
+   height: 35px;  
+}
+
+.logo{
+    display: flex;
+
+}
+.logo img{
+    width: 100%;
+    height: auto; 
+    max-height: 150px;
+}
+
 #inicio {
     background-image: url(../imagenes/imageninicio.png);
-    min-height: 300px ;
+    min-height: 250px ;
     background-repeat: no-repeat ;
     background-size: cover;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .redes {
@@ -27,17 +48,20 @@ p{
     list-style: none;
      
 }
+i:hover{
+    color:rgb(176, 164, 55);
+}
 
 a:any-link{
-
-
-}
-
-:-webkit-any-link{
-
+ color:black ;
 
 }
 
-:-moz-any-link{
-     
+a:-webkit-any-link{
+    color:black ;
+
+}
+
+a:-moz-any-link{
+    color:black ; 
 }
